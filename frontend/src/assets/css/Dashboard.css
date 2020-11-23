@@ -1,0 +1,19 @@
+h1{
+    /* background-color: #f9a11d; */
+    color: black;
+    height: 72px;
+}
+
+.desc{
+    background-color: white !important;
+}
+h3{
+    text-align: left;
+    margin-left: 630px;
+}
+
+.inner-div{
+    height: 320px;
+    background-color: #f9a11d
+}
+

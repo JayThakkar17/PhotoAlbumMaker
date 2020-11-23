@@ -1,0 +1,121 @@
+.categories-page-wrap {
+    font-family: 'ralewayregular';
+  }
+  .categories-table-wrap {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #fff;
+    -moz-box-shadow: 3px 4px 5px rgba(1, 1, 1, 0.08); /* drop shadow */
+    -webkit-box-shadow: 3px 4px 5px rgba(1, 1, 1, 0.08); /* drop shadow */
+    box-shadow: 3px 4px 5px rgba(1, 1, 1, 0.08); /* drop shadow */
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #e7e7e7;
+    margin-left: 18%;
+  }
+  .categories-table {
+    margin-bottom: 0px;
+  }
+  .filter-wrap {
+    padding: 20px 0;
+  }
+  .categories-table thead {
+    background-color: rgba(255, 215, 133, 0.25);
+    color: #a46342;
+    font-size: 16px;
+    font-family: 'ralewaysemibold';
+    border-bottom: 2px solid rgba(249, 161, 29, 0.3);
+    min-height: 40px;
+  }
+  
+  .categories-table > thead > tr > th {
+    border-bottom: 2px solid rgba(249, 161, 29, 0.3);
+    padding: 10px 20px;
+  }
+  
+  .categories-table > tbody > tr > td {
+    padding: 8px 20px;
+    color: #555;
+    font-size: 14px;
+  }
+  .edit-icon:hover,
+  .edit-icon:focus {
+    text-decoration: none;
+  }
+  .seprator {
+    padding: 0 15px;
+  }
+  .add-icon {
+    height: 18px;
+    width: 18px;
+    padding: 0;
+    border-radius: 50%;
+    line-height: 16px;
+    font-size: 10px;
+    margin-right: 5px;
+    margin-top: 1px;
+    float: left;
+  }
+  .add-new-btn {
+    padding: 6px 18px !important;
+    height: 35px;
+    position: relative;
+    font-size: 14px !important;
+    text-transform: uppercase;
+    border: 2px solid #f9a11d !important;
+    background-color: #feae37 !important;
+    font-family: 'ralewaysemibold';  
+    
+  }
+  .add-new-btn:hover,
+  .add-new-btn:focus,
+  .add-new-btn:active,
+  .add-new-btn:active:hover {
+    background: #feae37 !important;
+    color: #fff !important;
+    border: 2px solid #feae37 !important;
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  /*common css*/
+  
+  .text-yellow {
+    color: #f9a11d !important;
+  }
+  .text-red {
+    color: #e22122 !important;
+  }
+  .text-green {
+    color: #00991a !important;
+  }
+  .pull-right{
+      text-align: right;
+  }
+  .margin-2{
+      margin-left: 5px;
+  }
+  /*common css ended*/
+  @media only screen and (max-width: 991px) {
+    .categories-table thead {
+      font-size: 15px;
+    }
+    .categories-table > tbody > tr > td {
+      font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+  }
+  @media only screen and (max-width: 767px) {
+    .categories-table-wrap .table-responsive {
+      border: none;
+      margin-bottom: 0px;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .categories-table-wrap {
+      padding: 20px;
+    }
+  }
+  

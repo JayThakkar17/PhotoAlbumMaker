@@ -1,0 +1,16 @@
+.first-div{
+  /* background: #333333 !important; */
+  background-image: url(../img/logindemo.jpg);
+  background-size: cover;
+    height: 100%;
+}   
+    .button{
+        background-color: #555555;
+        color: white;
+        border: inset;
+        padding: 15px 32px;
+        text-decoration: none;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+  

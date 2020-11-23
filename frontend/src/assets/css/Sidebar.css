@@ -1,0 +1,85 @@
+.user-wrap {
+    /* background-image: url(../../images/admin/album/sidebar.png); */
+    /* background-image: url(../src/assets/img/333333.png); */
+    background-color:#f9a11d !important;
+    background-size: cover;
+    font-family: 'ralewaymedium';
+    height: 10%;
+  }
+  .logged-user-thumb {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff(104, 102, 102);
+    padding: 5px;
+    margin: 0 auto;
+  }
+  .user-name {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 16px;
+    font-family: 'ralewaysemibold';
+  }
+  .album-num {
+    font-size: 16px;
+    font-family: 'ralewaybold';
+    padding-top: 20px !important;
+  }
+  .album-name {
+    font-weight: normal;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+  .link-wrap {
+    padding: 20px;
+    background-color: #333;
+    height: 710px;
+  }
+  .sidebar-nav-links {
+    margin-bottom: 0;
+  }
+  .sidebar-nav-links .list-group-item {
+    border: 0;
+    background-color: transparent !important;
+    color: #fff !important;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 22px;
+    text-transform: capitalize;
+    font-family: 'ralewayregular';
+  }
+  
+  .sidebar-nav-links a.active .list-group-item {
+    color: #f9a11d !important;
+  }
+  
+  .sidebar-nav-links .list-group-item:hover {
+    background-color: transparent !important;
+    color: #f9a11d !important;
+    cursor: pointer;
+  }
+  .sidebar-nav-links .list-group-item .link-icons {
+    margin-right: 20px;
+  }
+  .sidebar{
+    /* width: 18%; */
+    width: 18% !important;
+    height: 100% !important;
+    position: fixed !important;
+    /* position: relative; */
+    /* width: auto !important; */
+    /* background-color: red; */
+    padding: 0 !important;
+    z-index: 10000 !important;
+    top: -8px !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #fff;
+    /* height: 800px !important; */
+  }
+  /* .page-wrap{
+     position: absolute; 
+    float: left;
+    width: 100%;
+    min-height: 100% !important; 
+  } */

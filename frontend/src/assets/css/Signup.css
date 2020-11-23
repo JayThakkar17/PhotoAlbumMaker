@@ -1,0 +1,31 @@
+@media all and (min-width: 480px){
+    
+.first-div{
+    /* background: #333333 !important; */
+    height: 765px;
+}
+
+.column{
+    height: 250px;   
+}
+
+.bodyPart{
+    min-height: 450px;
+}
+
+.button{
+    /* background-color: #555555; */
+    color: white;
+    border: inset;
+    padding: 15px 32px;
+    text-decoration: none; 
+    border-radius: 8px;
+    font-size: 16px;
+}
+}
+
+fieldset{
+    width: 400px;
+  }
+  
+

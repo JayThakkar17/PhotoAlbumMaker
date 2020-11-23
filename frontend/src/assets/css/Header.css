@@ -1,0 +1,157 @@
+.search-wrap {
+    margin-top: 10px;
+    float: left;
+    position: relative;
+  }
+  .search-box {
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    box-shadow: none;
+    text-align: right;
+    position: relative;
+  }
+  .search-box:focus {
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ccc;
+  }
+  /* webkit solution */
+  .search-wrap ::-webkit-input-placeholder {
+    text-align: right;
+  }
+  /* mozilla solution */
+  .search-wrap input:-moz-placeholder {
+    text-align: right;
+  }
+  
+  .search-btn-wrap {
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    background: none;
+  }
+  .search-btn-wrap:focus {
+    outline: 0;
+  }
+  .search-btn {
+    border: 0;
+    background: none;
+    color: #ccc !important;
+  }
+  
+  .search-wrap .btn-default:focus,
+  .search-wrap .btn-default:hover,
+  .search-wrap .btn-default:active:focus {
+    background: none !important;
+    box-shadow: none;
+    outline: 0;
+  }
+  .search-Form {
+    width: 400px;
+    left: auto;
+    right: 0;
+    padding: 0;
+  }
+  .AdminApp .header .menu-links li.back-to-album a {
+    color: #777 !important;
+    text-decoration: underline;
+    padding: 15px 5px;
+  }
+  .AdminApp .header .menu-links li.back-to-album img {
+    margin-right: 10px;
+  }
+  
+  /********************
+      Header css
+  *********************/
+  
+  .header.navbar {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 2px solid #f9a11d;
+    background-color: rgba(0, 0, 0, 0.52);
+  }
+  .header .navbar-brand {
+    min-height: 92px;
+    padding-top: 12px;
+  }
+  
+  .header .menu-links {
+    margin-top: 20px;
+  }
+  .header .menu-links li a {
+    padding: 15px 28px;
+  }
+  .header .menu-links li.active a {
+    background: none !important;
+  }
+  
+  .header .menu-links li.active a:before {
+    content: '';
+    /* background-image: url(../../images/header-active.png); */
+    height: 20px;
+    width: 20px;
+    left: 0px;
+    top: 30px;
+    position: absolute;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  .header .menu-links li.active a:after {
+    content: '';
+    /* background-image: url(../../images/header-active.png); */
+    height: 20px;
+    width: 20px;
+    right: 0px;
+    top: 0;
+    position: absolute;
+  }
+  
+  .header .menu-links li a {
+    color: #fff !important;
+  }
+  
+  .header .menu-links li.open a {
+    background: none !important;
+  }
+  .header .contact-header-links ul {
+    background-color: rgba(0, 0, 0, 0.52);
+    border-radius: 0;
+    margin-top: 26px !important;
+  }
+  
+  .search-wrap {
+    position: relative;
+    width: 250px;
+  }
+  .search-options {
+    position: absolute;
+    top: 74px;
+    left: 0;
+  }
+  
+  .logout-btn {
+    float: right;
+  
+  }
+  /********************
+      Footer css
+  *********************/
+  
+  .footer {
+    min-height: 30px;
+    line-height: 30px;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.52);
+    color: #fff;
+    font-size: 12px;
+  }
+  .design-by {
+    text-align: right;
+  }
+  

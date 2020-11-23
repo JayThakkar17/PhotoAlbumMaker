@@ -1,0 +1,81 @@
+.share-modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  z-index: 200; }
+  .share-modal .share-popup {
+    height: 220px;
+    width: 100%;
+    background: #fff;
+    bottom: 0;
+    position: absolute;
+    z-index: 2;
+    padding: 12px;
+    -o-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 0.6, 1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.6, 1);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d; }
+  .share-modal .overlay {
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    position: absolute;
+    display: none; }
+  .share-modal.open {
+    width: 100%;
+    height: 100%; }
+    .share-modal.open .overlay {
+      display: block;
+      opacity: 0.4; }
+    .share-modal.open .share-popup {
+      -o-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px); }
+  .share-modal .sp-tab {
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    color: #7f7f7f; }
+    .share-modal .sp-tab.copy {
+      height: 70px; }
+      .share-modal .sp-tab.copy .copy-input {
+        width: 100%;
+        height: 30px;
+        line-height: 30px; }
+        .share-modal .sp-tab.copy .copy-input input {
+          width: 96%;
+          outline: none;
+          border: none; }
+    .share-modal .sp-tab .icon {
+      background-image: url("./social-sprite.png");
+      width: 30px;
+      height: 24px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: inline-block;
+      vertical-align: middle; }
+      .share-modal .sp-tab .icon.copy {
+        background-position: 75%; }
+      .share-modal .sp-tab .icon.whatsapp {
+        background-position: 47%; }
+      .share-modal .sp-tab .icon.fb {
+        background-position: 0; }
+      .share-modal .sp-tab .icon.gmail {
+        background-position: 101%; }
+      .share-modal .sp-tab .icon.twitter {
+        background-position: 24%; }
+    .share-modal .sp-tab .text {
+      margin-left: 5px; }
+
+a {
+  text-decoration: none; }
